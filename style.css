@@ -1,0 +1,187 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------- Header info: nav icon, title, ninja head -----------------*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: 80vh;
+  background-color: rgb(61, 224, 126);
+}
+
+#navIcon {
+  width: 8rem;
+  padding: 2rem;
+}
+
+header > h1 {
+  text-align: center;
+  padding: 2rem 2rem 0 2rem;
+  font-family: sans-serif;
+  font-size: 18rem;
+}
+
+#ninjaHead {
+  height: 45rem;
+}
+
+/* ----------------- main information with picture and cart info -----------------*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40rem 10% 0 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title */
+#titleSection {
+  display: flex;
+  color: white;
+  align-self: start;
+}
+
+#titleSection > h2 {
+  font-size: 12rem;
+  font-weight: 400;
+}
+
+/* Member pictures with info in section: picture, title, info  */
+#photoSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+}
+
+.photoInfo {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 30%;
+  flex-grow: 1;
+  color: black;
+  background-color: white;
+}
+
+.photoInfo > h2 {
+  padding: 1rem 0 1rem 0;
+  margin: 3rem 1rem 0 3rem;
+  overflow-wrap: break-word;
+  font-size: 7rem;
+  font-weight: 800;
+}
+
+.money {
+  background-color: rgb(232, 63, 87);
+  width: fit-content;
+  padding: 2rem 3rem 2rem 3rem;
+  margin: 3rem 0 3rem 3rem;
+  border-radius: 5%;
+  color: white;
+  font-size: 2.5rem;
+}
+
+#fotograf {
+  margin-right: 8rem;
+}
+
+/*  cart section */
+#cartSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  margin: 20rem 0 15rem 0;
+  justify-content: space-between;
+}
+
+#cartTitle {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 5rem;
+  background-color: rgb(52, 8, 9);
+  color: rgb(230, 230, 230);
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+  margin: 2rem 0 2rem 0;
+}
+
+.cartItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 7rem;
+}
+
+.itemName {
+  width: 30vh;
+  border: 1px solid green;
+}
+.itemPieces {
+  display: flex;
+  width: 50px;
+  text-align: start;
+}
+
+hr {
+  border: 5px solid white;
+  width: 100%;
+  margin: 5rem 0 5rem 0;
+}
+
+#total {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 7rem;
+}
+
+/* ----------------- Footer ----------------- */
+footer {
+  color: white;
+  background-color: rgb(51, 51, 51);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+#footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  /* padding: 0rem 8% 2% 5%; */
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: column;
+}
+
+#socialMediaItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+.footerItem > span {
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgb(230, 230, 230);
+}
+
+#socialMediaItems > img {
+  width: 5rem;
+}
