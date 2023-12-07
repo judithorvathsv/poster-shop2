@@ -84,7 +84,7 @@ main {
   padding: 1.5rem 2rem 1.5rem 2rem;
   margin: 2rem 0 1.5rem 2rem;
   border-radius: 5px;
-  border-color: 1px solid rgb(232, 63, 87);
+
   color: white;
   font-size: 1rem;
 }
@@ -106,7 +106,6 @@ main {
 #cartTitle {
   display: flex;
   width: 100%;
-  justify-content: space-between;
   flex-wrap: wrap;
   font-size: 2rem;
   background-color: rgb(52, 8, 9);
@@ -118,20 +117,14 @@ main {
 .cartItem {
   display: flex;
   width: 100%;
-  justify-content: space-between;
   font-size: 2.5rem;
   align-items: end;
 }
 
-.itemName {
-  width: 30vw;
-  border: 1px solid green;
-  text-align: start;
-}
-.itemPieces {
-  display: flex;
+.itemInfo {
   width: 30vw;
   text-align: start;
+  line-height: 1.6;
 }
 
 hr {
