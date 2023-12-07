@@ -15,7 +15,7 @@ header {
 }
 
 #navIcon {
-  width: 8rem;
+  width: 2rem;
   padding: 2rem;
 }
 
@@ -23,11 +23,11 @@ header > h1 {
   text-align: center;
   padding: 2rem 2rem 0 2rem;
   font-family: sans-serif;
-  font-size: 18rem;
+  font-size: 8rem;
 }
 
 #ninjaHead {
-  height: 45rem;
+  height: 14rem;
 }
 
 /* ----------------- main information with picture and cart info -----------------*/
@@ -35,7 +35,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40rem 10% 0 10%;
+  margin: 9rem 15% 0 15%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -47,7 +47,7 @@ main {
 }
 
 #titleSection > h2 {
-  font-size: 12rem;
+  font-size: 4rem;
   font-weight: 400;
 }
 
@@ -71,25 +71,26 @@ main {
 }
 
 .photoInfo > h2 {
-  padding: 1rem 0 1rem 0;
-  margin: 3rem 1rem 0 3rem;
+  padding: 1rem 0 0rem 0;
+  margin: 2rem 1rem 0 2rem;
   overflow-wrap: break-word;
-  font-size: 7rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 750;
 }
 
 .money {
   background-color: rgb(232, 63, 87);
   width: fit-content;
-  padding: 2rem 3rem 2rem 3rem;
-  margin: 3rem 0 3rem 3rem;
-  border-radius: 5%;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  margin: 2rem 0 1.5rem 2rem;
+  border-radius: 5px;
+  border-color: 1px solid rgb(232, 63, 87);
   color: white;
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 
 #fotograf {
-  margin-right: 8rem;
+  margin-right: 3rem;
 }
 
 /*  cart section */
@@ -98,18 +99,18 @@ main {
   flex-direction: column;
   width: 100%;
   color: white;
-  margin: 20rem 0 15rem 0;
+  margin: 7rem 0 12rem 0;
   justify-content: space-between;
 }
 
 #cartTitle {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
-  font-size: 5rem;
+  font-size: 2rem;
   background-color: rgb(52, 8, 9);
   color: rgb(230, 230, 230);
-  width: 100%;
   padding: 1rem 0 1rem 0;
   margin: 2rem 0 2rem 0;
 }
@@ -118,30 +119,45 @@ main {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  font-size: 7rem;
+  font-size: 2.5rem;
+  align-items: end;
 }
 
 .itemName {
-  width: 30vh;
+  width: 30vw;
   border: 1px solid green;
+  text-align: start;
 }
 .itemPieces {
   display: flex;
-  width: 50px;
+  width: 30vw;
   text-align: start;
 }
 
 hr {
-  border: 5px solid white;
+  border: 1px solid white;
   width: 100%;
-  margin: 5rem 0 5rem 0;
+  margin: 2.5rem 0 3rem 0;
 }
 
 #total {
   display: flex;
   justify-content: space-between;
   color: white;
-  font-size: 7rem;
+  font-size: 2.5rem;
+}
+
+#gimmiButtonSection {
+  align-self: flex-end;
+  margin-bottom: 11rem;
+}
+
+#gimmiButtonSection > button {
+  background-color: rgb(232, 63, 87);
+  color: white;
+  font-size: 2.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 5px;
 }
 
 /* ----------------- Footer ----------------- */
@@ -149,7 +165,7 @@ footer {
   color: white;
   background-color: rgb(51, 51, 51);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   display: flex;
   flex-direction: row;
   flex-grow: 1;
@@ -161,7 +177,7 @@ footer {
   justify-content: space-around;
   flex-wrap: wrap;
   flex-grow: 1;
-  /* padding: 0rem 8% 2% 5%; */
+  padding: 2.5rem 8% 7% 5%;
 }
 
 .footerItem {
@@ -173,15 +189,16 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .footerItem > span {
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.6;
   color: rgb(230, 230, 230);
 }
 
 #socialMediaItems > img {
-  width: 5rem;
+  width: 3rem;
 }
